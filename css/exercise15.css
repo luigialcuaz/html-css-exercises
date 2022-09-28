@@ -30,3 +30,46 @@ body {
   color: white;
   font-size: 14px;
 }
+
+.e-section {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.e-shirt-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.e-discount {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  font-size: 13px;
+}
+
+.f-add-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-add-button {
+  padding: 8px 12px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+}
