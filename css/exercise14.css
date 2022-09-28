@@ -1,0 +1,59 @@
+body {
+  height: 3000px;
+}
+
+p {
+  margin: 0;
+  font-family: arial;
+}
+
+.separator {
+  margin-bottom: 15px;
+}
+
+.a-sticky-element {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: black;
+  color: white;
+}
+
+.b-right-sidebar {
+  width: 100px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: forestgreen;
+  color: white;
+  z-index: -1;
+}
+
+.c-background {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-modal {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.d-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.d-content {
+  margin: 10px 0px;
+}
