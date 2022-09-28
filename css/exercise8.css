@@ -1,0 +1,109 @@
+.separator {
+  margin-bottom: 10px;
+}
+
+.a-textbox {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.b-para {
+  width: 270px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.c-separator {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.c-img {
+  width: 400px;
+}
+
+.c-textbox {
+  width: 175px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 400px 10px 10px;
+}
+
+.d-first-name-input,
+.d-last-name-input,
+.d-email-input,
+.d-signup-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.d-first-name-input,
+.d-last-name-input,
+.d-email-input {
+  padding-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 8px;
+}
+
+.d-first-name-input,
+.d-last-name-input {
+  width: 100px;
+  padding-right: 10px;
+}
+
+.d-email-input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 74px;
+}
+
+.d-signup-button {
+  border: none;
+  border-radius: 10px;
+  padding-left: 94px;
+  padding-right: 94px;
+  background-color: cornflowerblue;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.e-para {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.e-pickup-input,
+.e-destination-input {
+  padding: 15px 150px 15px 15px;
+  border: none;
+  background-color: lightgray;
+  font-size: 13px;
+}
+
+.e-destination-input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.e-request-button,
+.e-schedule-button {
+  padding: 10px 15px;
+  border: none;
+}
+
+.e-request-button {
+  background-color: black;
+  color: white;
+}
+
+.e-schedule-button {
+  background-color: lightgray;
+  margin-left: 15px;
+}

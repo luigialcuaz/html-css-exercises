@@ -1,0 +1,160 @@
+p {
+  margin: 0;
+}
+
+.separator {
+  margin-bottom: 10px;
+}
+
+.tahoma-para {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.arial-para {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arial-insert {
+  font-family: arial;
+  font-size: 11px;
+  color: red;
+}
+
+.verdana-header,
+.verdana-insert,
+.verdana-descript,
+.verdana-button {
+  font-family: verdana;
+}
+
+.verdana-insert,
+.verdana-descript,
+.verdana-button {
+  font-size: 12px;
+}
+
+.verdana-header {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.verdana-insert {
+  color: lightgray;
+}
+
+.verdana-descript {
+  margin-top: 10px;
+}
+
+.verdana-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+
+.arial-header,
+.arial-descript,
+.arial-learn {
+  font-family: arial;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.arial-descript,
+.arial-learn {
+  font-size: 13px;
+}
+
+.arial-header {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.arial-learn {
+  color: cadetblue;
+}
+
+.challenge-exercise {
+  font-family: arial;
+}
+
+.e-separator {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.e-separator p {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.e-new {
+  font-size: 10px;
+  color: chocolate;
+}
+
+.e-small-title {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.e-main-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.e-insert {
+  font-size: 12px;
+}
+
+.e-buy-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 12px;
+  background-color: cadetblue;
+  color: white;
+  font-size: 11px;
+}
+
+.f-grey-info,
+.f-change-text,
+.f-after-hours-change {
+  color: grey;
+  font-size: 12px;
+}
+
+.f-change-text {
+  color: green;
+}
+
+.f-after-hours-change {
+  color: red;
+}
+
+.g-name {
+  margin-bottom: 10px;
+}
+
+.g-org-name {
+  font-weight: bold;
+}
+
+.g-org-tag {
+  color: grey;
+}
+
+.g-indiv-tag {
+  color: aquamarine;
+}
+
+.g-outro {
+  margin-top: 10px;
+}

@@ -1,0 +1,151 @@
+.separator {
+  margin-bottom: 10px;
+}
+
+.a-red-box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.b-green-circle {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.c-box-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  width: 300px;
+}
+
+.c-box-border p,
+button {
+  margin-left: 10px;
+}
+
+.c-box-border button {
+  margin-bottom: 10px;
+}
+
+.d-box {
+  width: 328px;
+  padding: 5px 10px;
+  background-color: darkslategray;
+}
+
+.d-title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.d-descript {
+  color: lightgray;
+}
+
+.e-tweet {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  width: 291px;
+  padding: 10px;
+}
+
+.e-profile-picture,
+.e-tweetbox,
+.e-tweet-button {
+  vertical-align: middle;
+}
+
+.e-profile-picture {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.e-tweetbox {
+  border: none;
+  color: grey;
+}
+.e-tweet-button {
+  border: none;
+  border-radius: 20px;
+  padding: 8px 12px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+.f-profile-card {
+  display: inline-block;
+  margin: 0px 4px;
+  height: 230px;
+  width: 150px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.f-profile-picture {
+  width: 150px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.f-profile-name,
+.f-mutual-friends,
+.f-add-friend-button {
+  margin-left: 5px;
+}
+
+.f-profile-name {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.f-mutual-friends,
+.f-add-friend-button {
+  font-size: 13px;
+}
+
+.f-mutual-friends {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: grey;
+}
+
+.f-add-friend-button {
+  border: none;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background-color: cadetblue;
+  color: white;
+}
+
+.h-centerer {
+  text-align: center;
+}
+
+.h-img {
+  display: inline-block;
+  width: 400px;
+}
+
+.h-textbox {
+  width: 175px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 400px 10px 10px;
+}
+
+.h-google {
+  display: inline-block;
+  padding: 15px;
+  background-color: lightgray;
+  margin: 30px 5px;
+}

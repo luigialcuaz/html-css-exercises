@@ -1,0 +1,54 @@
+.separator {
+  margin-bottom: 10px;
+}
+
+.pag-link {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.pag-button {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.stretch-button,
+.shadow-button,
+.triplet-button {
+  padding: 5px 14px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.stretch-button {
+  transition: padding-top 1s, padding-bottom 2s, padding-left 0.5s,
+    padding-right 4s;
+}
+
+.stretch-button:hover {
+  padding: 20px 20px;
+}
+
+.shadow-button {
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-button:active {
+  box-shadow: none;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.triplet-button {
+  margin-left: 6px;
+  margin-right: 6px;
+  transition: padding 1s, margin 1s;
+}
+
+.triplet-button:hover {
+  padding: 5px 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}

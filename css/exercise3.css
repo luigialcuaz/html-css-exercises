@@ -1,0 +1,43 @@
+.uber-button:hover {
+  opacity: 0.5;
+}
+
+.amazon-button:hover {
+  background-color: blue;
+}
+
+.github-button:hover {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bootstrap-get-started-button:hover {
+  background-color: lightgrey;
+}
+
+.bootstrap-download-button:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+.linkedin-apply-button:hover {
+  background-color: darkgreen;
+}
+
+.linkedin-save-button:hover {
+  background-color: aliceblue;
+  border-width: 2px;
+}
+
+.amazon-link:hover {
+  color: brown;
+}
+
+.amazon-add-button:hover,
+.amazon-buy-button:hover {
+  background-color: darkorange;
+}
+
+.amazon-add-button:active,
+.amazon-buy-button:active {
+  opacity: 0.5;
+}

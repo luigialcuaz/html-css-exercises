@@ -1,0 +1,162 @@
+.separator {
+  margin-bottom: 15px;
+}
+
+.a-flex,
+.b-flex {
+  display: flex;
+  width: 400px;
+}
+
+.a-col-one,
+.b-col-one {
+  display: flex;
+  background-color: lightpink;
+  flex: 1;
+  justify-content: center;
+}
+
+.a-p,
+.b-p-two {
+  color: white;
+  background-color: black;
+}
+
+.a-col-two,
+.b-col-two {
+  background-color: lightblue;
+  flex: 3;
+}
+
+.b-col-two {
+  padding: 4px 0px 8px 0px;
+}
+
+.b-p-one,
+.b-p-two {
+  margin: 0;
+}
+
+.b-inner-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-email {
+  padding: 10px 15px 30px 15px;
+}
+
+.d-email p {
+  font-family: arial;
+  margin: 0;
+  font-size: 12px;
+}
+
+.d-head,
+.d-body-time,
+.d-body-content {
+  color: grey;
+}
+
+.d-head {
+  padding: 0px 0px 20px 0px;
+}
+
+.d-body-flex {
+  display: flex;
+  align-items: center;
+}
+
+.d-email-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.d-body-info {
+  flex: 1;
+  padding-left: 8px;
+}
+
+.d-body-title-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.d-body-title {
+  font-size: 15px;
+}
+
+.d-body-title,
+.d-body-subject {
+  font-weight: bold;
+}
+
+.e-inbox {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 400px;
+}
+
+.g-tweet {
+  display: flex;
+  width: 420px;
+}
+
+.g-tweet p {
+  font-family: arial;
+  margin: 0;
+}
+
+.g-profile-pic {
+  vertical-align: top;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.g-tweet-col {
+  flex: 1;
+}
+
+.g-tweet-content {
+  padding: 5px 0px 10px 0px;
+}
+
+.g-tweet-profile {
+  font-weight: bold;
+}
+
+.g-tweet-profile-tag,
+.g-attach-source {
+  color: grey;
+  font-weight: 400;
+}
+
+.g-tweet-attach {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+  border-radius: 8px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.g-attach-thumb {
+  height: 100px;
+  width: 150px;
+  background-color: lightgrey;
+  border: none;
+}
+
+.g-attach-info {
+  padding: 12px 12px 12px 10px;
+}
+
+.g-attach-source {
+  padding-bottom: 5px;
+}

@@ -1,0 +1,167 @@
+.separator {
+  margin-bottom: 10px;
+}
+
+.a-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-col-one {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.a-col-two {
+  background-color: lightpink;
+  width: 75px;
+}
+
+.b-flexbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.b-p-1,
+.b-p-3 {
+  background-color: lightblue;
+}
+
+.b-p-1 {
+  width: 50px;
+}
+
+.b-p-2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.b-p-3 {
+  width: 75px;
+}
+
+.c-flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-p {
+  background-color: lightpink;
+}
+
+.d-flexbox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-p {
+  background-color: lightpink;
+}
+
+.e-flexbox {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 400px;
+}
+
+.e-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 15px;
+}
+
+.e-row-text {
+  margin: 5px 0px;
+}
+
+.e-row-num {
+  margin: 5px;
+  padding: 5px 12px;
+  border-radius: 12px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+.g-profile {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+
+.g-profile p {
+  margin: 0;
+}
+
+.g-profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.g-col {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.g-profile-name {
+  font-weight: bold;
+}
+
+.g-profile-descript,
+.g-profile-attribute {
+  color: grey;
+}
+
+.g-profile-attribute {
+  font-size: 14px;
+}
+
+.g-follow-button {
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 10px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+}
+
+.f-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: darkslateblue;
+}
+
+.f-nav-home {
+  margin-left: 15px;
+  font-size: 13px;
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+}
+
+.f-nav-input {
+  padding: 6px 300px 6px 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 11px;
+}
+
+.f-nav-button {
+  margin-right: 15px;
+  padding: 5px 12px;
+  border-width: 1px;
+  border-color: white;
+  background-color: darkslateblue;
+  color: white;
+  font-family: arial;
+  font-size: 13px;
+}
