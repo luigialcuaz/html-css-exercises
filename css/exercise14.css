@@ -57,3 +57,104 @@ p {
 .d-content {
   margin: 10px 0px;
 }
+
+.e-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.e-col {
+  display: flex;
+  align-items: center;
+}
+
+.e-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.e-name,
+.e-add-button,
+.e-message-button {
+  font-family: arial;
+  font-weight: bold;
+}
+
+.e-add-button,
+.e-message-button {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.e-add-button {
+  background-color: cadetblue;
+  color: white;
+  margin-right: 5px;
+}
+
+.e-message-button {
+  background-color: gainsboro;
+}
+
+.f-double-sidebar {
+  display: flex;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+}
+
+.f-sidebar-one {
+  background-color: grey;
+  padding: 15px;
+}
+
+.f-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: block;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.f-sidebar-two {
+  background-color: lightgray;
+  padding: 15px;
+  width: 140px;
+}
+
+.f-sidebar-two p {
+  font-size: 14px;
+}
+
+.f-flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.f-title {
+  color: white;
+  font-weight: bold;
+}
+
+.f-plus,
+.f-content {
+  color: gray;
+}
+
+.f-content {
+  margin-bottom: 10px;
+}
