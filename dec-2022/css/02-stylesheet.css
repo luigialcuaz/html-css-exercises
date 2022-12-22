@@ -1,0 +1,89 @@
+.separator {
+  margin: 20px;
+}
+
+.uber-button {
+  padding: 8px 20px;
+  background-color: black;
+  color: white;
+}
+
+.amazon-button {
+  background-color: rgb(255, 216, 20);
+  border-radius: 10px;
+  border: none;
+  padding: 8px 50px;
+}
+
+.github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+
+.bootstrap-get-started-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  color: rgb(121, 82, 179);
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 8px 20px;
+}
+
+.linkedin-apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 15px;
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  border-color: rgb(10, 102, 194);
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 8px 12px;
+}
+
+.amazon-link {
+  color: rgb(0, 113, 133);
+}
+
+.nike-header {
+  margin: 15px 4px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nike-price-tag {
+  color: rgb(0, 118, 0);
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.nike-add-to-cart-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 12px;
+  padding: 8px 30px;
+}
+
+.nike-buy-now-button {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  border-radius: 12px;
+  padding: 8px 30px;
+}
