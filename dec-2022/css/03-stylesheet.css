@@ -1,0 +1,138 @@
+.separator {
+  margin: 20px;
+}
+
+.uber-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+}
+
+.uber-button:hover {
+  opacity: 0.5;
+}
+
+.amazon-button {
+  background-color: yellow;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 50px;
+}
+
+.amazon-button:hover {
+  background-color: cornsilk;
+}
+
+.github-button {
+  background-color: aqua;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.github-button:hover {
+  box-shadow: 5px 5px 10px black;
+}
+
+.bootstrap-get-started-button {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.bootstrap-get-started-button:hover {
+  background-color: darkslateblue;
+}
+
+.bootstrap-download-button {
+  background-color: white;
+  border-width: 1px;
+  border-color: purple;
+  color: purple;
+  border-radius: 4px;
+  padding: 12px 16px;
+}
+
+.bootstrap-download-button:hover {
+  background-color: purple;
+  color: white;
+}
+
+.linkedin-apply-button {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 8px 14px;
+}
+
+.linkedin-apply-button:hover {
+  background-color: blue;
+}
+
+.linkedin-save-button {
+  background-color: white;
+  color: cadetblue;
+  border-color: cadetblue;
+  border-width: 1px;
+  border-radius: 12px;
+  padding: 8px 14px;
+}
+
+.linkedin-save-button:hover {
+  background-color: grey;
+  border-width: 2px;
+}
+
+.amazon-link {
+  color: blue;
+  cursor: pointer;
+}
+
+.amazon-link:hover {
+  color: purple;
+}
+
+.nike-header {
+  font-size: 32px;
+  font-weight: black;
+  margin: 15px 5px;
+}
+
+.nike-price {
+  color: cadetblue;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.add-to-cart-button {
+  background-color: yellow;
+}
+
+.buy-now-button {
+  background-color: orange;
+}
+
+.add-to-cart-button,
+.buy-now-button {
+  border: none;
+  border-radius: 12px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.buy-now-button:hover,
+.add-to-cart-button:hover {
+  background-color: darkred;
+}
+
+.buy-now-button:active,
+.add-to-cart-button:active {
+  opacity: 0.5;
+}
