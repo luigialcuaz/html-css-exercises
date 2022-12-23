@@ -1,0 +1,79 @@
+.separator {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+.tahoma-para {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.macbook-div {
+  text-align: center;
+  font-weight: bold;
+}
+
+.new-para {
+  color: red;
+  font-size: 12px;
+}
+
+.item-para {
+  font-size: 18px;
+}
+
+.descript-para {
+  font-size: 35px;
+}
+
+.price-para {
+  font-weight: lighter;
+}
+
+.buy-button {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 12px;
+}
+
+.price-para {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grey-span {
+  color: grey;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-left: 4px;
+}
+
+.daily-price-change-para {
+  color: green;
+}
+
+.evening-price-change-para {
+  color: grey;
+}
+
+.evening-price-change-percentage-span {
+  color: red;
+}
+
+.name-tag-para {
+  font-weight: bold;
+}
+
+.name-handle-span {
+  font-weight: lighter;
+  color: grey;
+}
+
+.blue-handle-span {
+  color: aqua;
+}
