@@ -1,0 +1,19 @@
+p {
+  font-family: "montserrat";
+  text-align: center;
+  margin: 0;
+}
+
+.separator {
+  margin: 20px;
+}
+
+.title-para {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 18px;
+}
+
+.underline-span {
+  text-decoration: underline;
+}
