@@ -1,0 +1,81 @@
+.separator {
+  margin: 20px;
+}
+
+.a-img {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.b-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.c-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.search-box {
+  padding: 8px 40px 8px 15px;
+  border-radius: 6px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.google-search-box {
+  padding: 8px 50px 8px 15px;
+  width: 250px;
+  border-radius: 14px;
+  border: none;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.linkedin-para {
+  font-size: 10px;
+  margin-bottom: 6px;
+}
+
+.linkedin-input {
+  padding: 2px 58px 2px 12px;
+  border-radius: 2px;
+  border-width: 1px;
+}
+
+.linkedin-button {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  padding: 16px 80px;
+  text-align: center;
+}
+
+.twitter-profile-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.twitter-tweet-input {
+  border: none;
+  padding: 5px 40px 5px 5px;
+}
+
+.twitter-tweet-button {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 12px;
+}
