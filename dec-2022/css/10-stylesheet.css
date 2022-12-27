@@ -5,3 +5,55 @@ p {
 .separator {
   margin: 15px;
 }
+
+.add-friend-div {
+  width: 180px;
+  height: 280px;
+}
+
+.add-friend-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.add-friend-info-div {
+  margin-top: -4px;
+  width: 180px;
+  height: 100px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.add-friend-name {
+  font-weight: bold;
+  padding: 5px 6px;
+}
+
+.mutual-friend-div {
+  margin-bottom: 6px;
+}
+
+.mutual-friend-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.mutual-friend-text {
+  display: inline-block;
+  color: gray;
+  margin-left: 2px;
+  vertical-align: middle;
+}
+
+.add-friend-button {
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  margin-left: 5px;
+}
