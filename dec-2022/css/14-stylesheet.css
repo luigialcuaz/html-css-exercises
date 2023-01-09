@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 3000px;
+}
+
+.a-text {
+  color: white;
+  background-color: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.b-div {
+  background-color: green;
+  width: 100px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.b-text {
+  color: white;
+  margin: 0;
+}
+
+.c-div {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.d-div {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-modal {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0px 200px 15px 15px;
+}
+
+.e-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.e-profile {
+  display: flex;
+  align-items: center;
+}
+
+.e-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.e-text {
+  margin-left: 10px;
+  margin-block: 0px;
+  font-weight: bold;
+}
+
+.e-add-friend, .e-message {
+  font-weight: bold;
+  padding: 7px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.e-add-friend{
+  background-color: cadetblue;
+  color: white;
+}
+
+.e-message{
+  background-color: ghostwhite;
+}
+
+.f-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background-color:darkslategray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.f-img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.f-dbl-navbar {
+  position: fixed;
+  left: 50px;
+  top: 0;
+  bottom: 0;
+  background-color: grey;
+  padding-inline: 20px;
+}
+
+.f-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.f-title, .f-plus {
+  margin: 0;
+}
+
+.f-title {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.f-plus, .f-item {
+  color: lightgray;
+}
+
+.f-item {
+  font-size: 15px;
+}
